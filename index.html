@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Home Page -->
+    <div id="main-wrapper" class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-10">
+                <div class="card border-0">
+                    <div class="card-body p-0">
+                        <div class="row no-gutters">
+
+                            <div class="col-lg-6 d-none d-lg-inline-block ">
+
+                               
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div>
+                                    <div class="logo">
+                                        <img src="src/Group 2316.png" alt="" width="">
+                                    </div>
+                                    <div class="login">
+                                        <h3>Login</h3>
+                                    </div>
+
+                                    <form>
+
+                                        <div class="form-group ">
+                                            <input type="email" name="logemail" class="form-style"
+                                                placeholder="Enter your Username" id="logemail" autocomplete="off">
+                                            <i class="input-icon  fa fa-user icon"></i>
+                                        </div>
+                                        <div class="form-group ">
+                                            <input type="password" name="logemail" class="form-style"
+                                                placeholder="Password" id="password" autocomplete="off">
+                                            <i class="input-icon  fa-solid fa-lock icon"></i>
+                                        </div>
+                                        <div class="forgot "> <a href=""
+                                                class="forgot-link float-right text-primary">Forgot password?</a></div>
+                                        <div class="nj">
+                                            <p>On-screen keyboard</p>
+                                        </div>
+
+                                        <div>
+                                            <button id="btn" class="button" type="button" onclick="pageRedirect()">log in</button>
+                                        </div>
+
+                                    </form>
+
+                                </div>
+
+                                <div class="row row-2 grid-container">
+                                    <div class="col-sm-6 location grid-item">
+                                        <h4>Local Agent</h4>
+                                        <i>POSibolt</i>
+                                        <p>Address: #24, 1A Main Road,S.T. Bed, Koramangala,Bangalore - 560 034, India
+                                            Phone: +91-80-42123221 Email: info@posibolt.com</p>
+                                    </div>
+                                    <div class="col-sm-6 location">
+                                        <h4>Support & Sales</h4>
+                                        <br>
+                                        Website : www.posibolt.com <br>
+                                        Email: info@posibolt.com
+                                    </div>
+                                </div>
+                                <div class="foot">
+                                    <p>© 2009- 2022 Posibolt Version 10.0</p>
+                                </div>
+
+
+                                <!--Start Sticky Icon-->
+                                <div class="sticky-icon">
+                                    <div class="sub-menu">
+                                        <i class="fa-solid fa-user"></i>
+                                        <span class="menu-title">Login</span>
+                                    </div>
+                                    <div class="sub-menu">
+                                        <i class="fa-solid fa-table-cells"></i>
+                                        <span class="menu-title">Pin</span>
+                                    </div>
+                                    <div class="sub-menu">
+                                        <i class="fa-solid fa-credit-card fa-flip-both"></i>
+                                        <span class="menu-title">Swipe Card</span>
+                                    </div>
+                                    <div class="sub-menu">
+                                        <i class="fa-solid fa-fingerprint"></i>
+                                        <span class="menu-title">Biometric</span>
+                                    </div>
+
+
+                                </div>
+                                <!--End Sticky Icon-->
+
+
+                            </div>
+
+
+
+
+                        </div>
+
+                    </div>
+                    <!-- end card-body -->
+                </div>
+
+            </div>
+            <!-- end col -->
+        </div>
+        <!-- Row -->
+    </div>
+
+
+
+    <!-- jqury -->
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
